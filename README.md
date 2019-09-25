@@ -8,3 +8,19 @@ This repository contains following files:
 - mini_sparkify_event_data.json: a small subset of the original data used to train and test our model;
 - Sparkify.ipynb: Jupyter notebook containing the analysis
 - Sparkify.html: a HTML version of the Jupyter notebook 
+## Installation
+The required packages include among others:
+- Python 3
+- Pyspark
+- SQL
+- Spark
+- numpy
+- pandas
+- matplotlib 
+## The Approach and Results
+I tried three algorithms to predict churn rates of customers in Sparkify app:
+1. Logistic Regression
+2. Random Forest
+3. Gradient Boosted Trees
+
+
