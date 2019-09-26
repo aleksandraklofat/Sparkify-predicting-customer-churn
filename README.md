@@ -17,10 +17,17 @@ The required packages include among others:
 - numpy
 - pandas
 - matplotlib 
-## The Approach and Results
-I tried three algorithms to predict churn rates of customers in Sparkify app:
+## Approach and Results
+In order to predict customer churn rates first I transformed data into numerical values and also constructed new features. 
+In the second step I implemented following algorithms enabled by Spark:
+
 1. Logistic Regression
 2. Random Forest
 3. Gradient Boosted Trees
+
+In the first run the algorithms were specified without parameter tuning in order to improve their time performance.
+After the first run 
+
+## Blog post about the project
 
 
