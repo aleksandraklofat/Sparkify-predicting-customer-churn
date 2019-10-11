@@ -33,6 +33,8 @@ The results of the first run were:
 
 After the first run I chose gradient boosting for further tuning. After parameter tuning gradient boosting scored even bettter on this dataset with F1 score over 0.995. This points towards overfitting. This result is not surprising due to the fact that the subste of data at hand contains not that many churned users. It needs to be tested on the whole dataset. 
 
+The results also indicate most important factors for customer churn in Sparkify App: the number of songs played per user, user engagement and listening time. 
+
 ## Blog post about the project
 
 I have also created a small blog post about analysing Sparkify dataset, which can be found on Medium().   
