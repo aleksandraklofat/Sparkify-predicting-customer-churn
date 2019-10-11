@@ -23,11 +23,17 @@ In the second step I implemented following algorithms enabled by Spark:
 
 1. Logistic Regression
 2. Random Forest
-3. Gradient Boosted Trees
+3. Gradient Boosting
 
 In the first run the algorithms were specified without parameter tuning in order to improve their time performance.
-After the first run 
+The results of the first run were:
+- Logistic Regression with F1 score 0.7625630322111933
+- Random Forest with F1 score 0.8407021771723214
+- Gradient Boosing with F1 score 0.9937213958436153
+
+After the first run I chose gradient boosting for further tuning. After parameter tuning gradient boosting scored even bettter on this dataset with F1 score over 0.995. This points towards overfitting. This result is not surprising due to the fact that the subste of data at hand contains not that many churned users. It needs to be tested on the whole dataset. 
 
 ## Blog post about the project
 
+I have also created a small blog post about analysing Sparkify dataset, which can be found on Medium().   
 
