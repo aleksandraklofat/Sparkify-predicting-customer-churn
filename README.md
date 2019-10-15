@@ -37,5 +37,5 @@ The results also indicate most important factors for customer churn in Sparkify 
 
 ## Blog post about the project
 
-I have also created a small blog post about analysing Sparkify dataset, which can be found on Medium().   
+I have also created a small blog post about analysing Sparkify dataset, which can be found on Medium (https://medium.com/@aleksandraklofat/predicting-customer-churn-rates-with-spark-61b0e0747b65).   
 
